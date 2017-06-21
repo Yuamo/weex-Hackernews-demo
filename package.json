@@ -17,7 +17,7 @@
     "copy:android": "copy dist/index.weex.js android/app/src/main/assets/index.js",
     "copy:ios": "copy dist/index.weex.js ios/assets/index.js",
     "copy": "npm run copy:android && npm run copy:ios",
-    "serve": "serve -p 1337",
+    "serve": "node init.js && serve -p 8080"
     "test": "echo \"Error: no test specified\" && exit 1",
     "debug": "weex-devtool"
   },
