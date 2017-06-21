@@ -1,14 +1,9 @@
 # Hacker News App
 
-首个使用 Weex 和 Vue 开发的 Hacker News 原生应用。
+改造了hacker news 为vue init出来时的结构
 
-## 预览
-
-用 [Weex Playground App](https://weex.apache.org/playground.html) 扫描下方二维码即可。
-
-![QR Code](./qrcode.jpg)
-
-> 二维码内容是 `http://whatever.cn?_wx_tpl=https://raw.githubusercontent.com/weexteam/weex-hackernews/master/ios/assets/index.js` ，确保你的手机能登上 GitHub 。
+加入weex-devtool mockjs  等
+ 
 
 ## 编译项目文件
 
@@ -50,7 +45,12 @@ npm run copy
 npm run serve
 ```
 
-启动服务后会监听 1337 端口，访问 http://127.0.0.1:1337/index.html 即可在浏览器中预览页面。
+### 启动调试
+```
+npm run debug
+```
+
+ 
 
 ### 启动 Android 项目
 
