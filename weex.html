@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="format-detection" content="telephone=no, email=no">
+  <!-- <style>body > div { height: 100%; }</style> -->
+  <style>
+    body::before {
+      content: "1";
+      height: 1px;
+      overflow: hidden;
+      color: transparent;
+      display: block;
+    }
+  </style>
+  <!--<script src="./assets/phantom-limb.js"></script>-->
+  <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=dcb70bf42cc826f4e2f353c8743f5a8e"></script>
+  <script src="./node_modules/vue/dist/vue.runtime.js"></script>
+  <script src="./node_modules/weex-vue-render/index.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="./dist/index.web.js"></script>
+</body>
+
+</html>
